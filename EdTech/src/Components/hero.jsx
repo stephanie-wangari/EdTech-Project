@@ -1,13 +1,13 @@
 import React from 'react';
 
-const HeroSection = () => {
+const Hero = () => {
   return (
     <section className="flex flex-col md:flex-row items-center justify-between px-24 bg-white text-gray-800">
      
       <div className="md:w-1/2 p-4 pr-10 flex flex-col justify-center items-start text-left z-10">
-        <h1 className="text-4xl md:text-5xl lg:text-3xl font-extrabold leading-tight mb-4">
+        <h1 className="text-black text-4xl md:text-5xl lg:text-3xl font-extrabold leading-tight mb-4">
           Applying cutting-edge techniques for{' '}
-          <span className="text-orange-500">transformative</span> learning experiences
+          <span className="text-yellow-500">transformative</span> learning experiences
         </h1>
         <p className="text-lg md:text-xl text-gray-600 mb-8">
           Experience customised education paths and mentorship that foster significant growth and lead to achieving your
@@ -49,4 +49,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default Hero;

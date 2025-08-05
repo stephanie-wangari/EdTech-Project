@@ -1,14 +1,15 @@
 import React from "react";
-import Navbar from "./Components/navbar";
-import Home from "./Components/home";
+import Landing from "./Pages/Landing";
+import { Route, Routes } from "react-router-dom";
+
 
 function App() {
   return (
     <div className="App font-sans">
-      <Navbar />
-      <Home />
-
-
+        <Routes>
+            <Route path="/" element={<Landing />}/>
+            
+        </Routes>
     </div>
   );
 }
